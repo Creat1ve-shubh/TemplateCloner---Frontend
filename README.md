@@ -83,7 +83,7 @@ npm run dev
 
 ---
 ```bash
-.
+Git Branches
 ├── Main  //Main branch holding production code
 ├── UI    //UI/UX based changes staged here
 ├── Testing  //Testing based changes staged here
