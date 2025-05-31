@@ -82,6 +82,16 @@ npm run dev
 ```
 
 ---
+```bash
+.
+├── Main  //Main branch holding production code
+├── UI    //UI/UX based changes staged here
+├── Testing  //Testing based changes staged here
+├── Connectivity  //Network based changes staged here
+
+
+```
+---
 
 ## 📦 API Endpoints 
 
