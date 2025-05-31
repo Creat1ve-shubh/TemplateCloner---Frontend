@@ -22,7 +22,7 @@ A sleek, responsive React application that allows users to browse, clone, and cu
 
 ```bash
 git clone https://github.com/Creat1ve-shubh/TemplateCloner---Frontend.git
-cd TemplateCloner---Frontend
+
 ```
 
 ### 2. ⚙️ Install dependencies
@@ -64,10 +64,16 @@ npm run dev
 ├── public
 ├── src
 │   ├── api
-│   ├── components
-│   ├── hooks
+│   ├── assets
 │   ├── pages
-│   └── ...
+        ├── TemplateList.jsx
+        ├── CloneModal.jsx
+│   └── utils
+        ├── axiosInstance.js
+│    ├── App.css
+│    ├── App.jsx 
+│    ├── index.css
+│    ├── main.jsx
 ├── .gitignore
 ├── index.html
 ├── package.json
@@ -77,38 +83,26 @@ npm run dev
 
 ---
 
-## 📦 API Endpoints (Example)
+## 📦 API Endpoints 
 
 *Note: Ensure the backend API is running and accessible.*
 
+*Insert stub auth in the headers while testing in postman*
+
 | Method | Endpoint           | Description                |
 | ------ | ------------------ | -------------------------- |
-| GET    | `/templates`       | Retrieve user templates    |
+| GET    | `/templates/user`  | Retrieve user templates    |
 | POST   | `/templates/clone` | Clone an existing template |
+
+![WhatsApp Image 2025-05-30 at 23 51 22_90dcbe25](https://github.com/user-attachments/assets/085b4b1e-7508-4a5c-bb68-f8f2387578bc)
+![WhatsApp Image 2025-05-30 at 23 51 34_dae4f925](https://github.com/user-attachments/assets/e243cfbe-2b40-44b4-9b05-f5bcdb4cf81b)
+
 
 ---
 
 ## 🌐 Deployment
 
-*Consider deploying the frontend using platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).*
+*Vercel* - 
 
 ---
 
-## 📌 Future Enhancements
-
-* 🔐 Implement authentication (e.g., JWT)
-* 🔍 Add search and filter functionalities for templates
-* 📝 Enable template sharing among users
-* 🖼️ Integrate template preview and markdown support
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue to discuss your ideas or submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
