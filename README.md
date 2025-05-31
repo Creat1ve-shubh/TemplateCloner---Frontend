@@ -93,16 +93,34 @@ npm run dev
 | ------ | ------------------ | -------------------------- |
 | GET    | `/templates/user`  | Retrieve user templates    |
 | POST   | `/templates/clone` | Clone an existing template |
-
+---
+*Screenshots*
+Testing:
 ![WhatsApp Image 2025-05-30 at 23 51 22_90dcbe25](https://github.com/user-attachments/assets/085b4b1e-7508-4a5c-bb68-f8f2387578bc)
 ![WhatsApp Image 2025-05-30 at 23 51 34_dae4f925](https://github.com/user-attachments/assets/e243cfbe-2b40-44b4-9b05-f5bcdb4cf81b)
+
+Frontend:
+
+Error handling 
+![image](https://github.com/user-attachments/assets/dccac460-eaf6-47fa-91a9-8fa1eb20f9fb)
+
+Homepage:
+![image](https://github.com/user-attachments/assets/38c278f4-3506-4f46-ab30-7736138395de)
+
+Clone message:
+![image](https://github.com/user-attachments/assets/1a33bbd6-43c0-489c-b2eb-bac83e774f2b)
+
+New Cloned template:
+![image](https://github.com/user-attachments/assets/bd3a45d7-5fc2-4f65-92f3-a362b9475a72)
+
+
 
 
 ---
 
 ## 🌐 Deployment
 
-*Vercel* - 
+*Vercel* - pending..
 
 ---
 
