@@ -111,6 +111,10 @@ Frontend:
 Error handling 
 ![image](https://github.com/user-attachments/assets/dccac460-eaf6-47fa-91a9-8fa1eb20f9fb)
 
+
+
+
+
 Homepage:
 ![image](https://github.com/user-attachments/assets/38c278f4-3506-4f46-ab30-7736138395de)
 
@@ -121,10 +125,13 @@ New Cloned template:
 ![image](https://github.com/user-attachments/assets/bd3a45d7-5fc2-4f65-92f3-a362b9475a72)
 
 
+---
+*Video*
 
+
+https://github.com/user-attachments/assets/979ab550-41a1-47dc-98e0-ad822fce2e16
 
 ---
-
 ## 🌐 Deployment
 
 *Vercel* - pending..
