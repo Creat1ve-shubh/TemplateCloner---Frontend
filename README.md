@@ -1,12 +1,133 @@
-# React + Vite
+# ✨ Template Cloner – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive React application that allows users to browse, clone, and customize templates with a modern UI and real-time feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Tech Stack
 
-## Expanding the ESLint configuration
+| Layer       | Technology                |
+| ----------- | ------------------------- |
+| Frontend    | React, Vite, Tailwind CSS |
+| State Mgmt  | React Hooks               |
+| UI Feedback | React Toastify            |
+| Icons       | Lucide Icons              |
+| API Comm    | Axios                     |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. 📦 Clone the repository
+
+```bash
+git clone https://github.com/Creat1ve-shubh/TemplateCloner---Frontend.git
+
+```
+
+### 2. ⚙️ Install dependencies
+
+```bash
+npm install
+```
+
+### 3. 🏃 Run the application
+
+```bash
+npm run dev
+```
+
+> The application will be available at `http://localhost:5173/` by default.
+
+---
+
+## 🧪 Testing
+
+*Note: Testing setup is pending. Consider integrating tools like Jest or React Testing Library for comprehensive testing.*
+
+---
+
+## 🧠 Why This Stack? (3-minute rationale)
+
+* **React + Vite**: Offers a fast and efficient development environment with hot module replacement and optimized builds.
+* **Tailwind CSS**: Enables rapid UI development with utility-first classes, ensuring a consistent and responsive design.
+* **React Toastify**: Provides user-friendly notifications for actions like cloning success or failure.
+* **Lucide Icons**: Enhances the UI with clean and customizable icons.
+* **Axios**: Simplifies HTTP requests to the backend API.
+
+---
+
+## 🌱 Project Structure
+
+```bash
+.
+├── public
+├── src
+│   ├── api
+│   ├── assets
+│   ├── pages
+        ├── TemplateList.jsx
+        ├── CloneModal.jsx
+│   └── utils
+        ├── axiosInstance.js
+│    ├── App.css
+│    ├── App.jsx 
+│    ├── index.css
+│    ├── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+```bash
+Git Branches
+├── Main  //Main branch holding production code
+├── UI    //UI/UX based changes staged here
+├── Testing  //Testing based changes staged here
+├── Connectivity  //Network based changes staged here
+
+
+```
+---
+
+## 📦 API Endpoints 
+
+*Note: Ensure the backend API is running and accessible.*
+
+*Insert stub auth in the headers while testing in postman*
+
+| Method | Endpoint           | Description                |
+| ------ | ------------------ | -------------------------- |
+| GET    | `/templates/user`  | Retrieve user templates    |
+| POST   | `/templates/clone` | Clone an existing template |
+---
+*Screenshots*
+
+Frontend:
+
+Error handling 
+![image](https://github.com/user-attachments/assets/dccac460-eaf6-47fa-91a9-8fa1eb20f9fb)
+
+Homepage:
+![image](https://github.com/user-attachments/assets/38c278f4-3506-4f46-ab30-7736138395de)
+
+Clone message:
+![image](https://github.com/user-attachments/assets/1a33bbd6-43c0-489c-b2eb-bac83e774f2b)
+
+New Cloned template:
+![image](https://github.com/user-attachments/assets/bd3a45d7-5fc2-4f65-92f3-a362b9475a72)
+
+
+
+
+---
+
+## 🌐 Deployment
+
+*Vercel* - pending..
+
+---
+
