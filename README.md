@@ -43,7 +43,7 @@ npm run dev
 
 ## 🧪 Testing
 
-*Note: Testing setup is pending. Consider integrating tools like Jest or React Testing Library for comprehensive testing.*
+*Note: Testing setup is pending.*
 
 ---
 
@@ -104,6 +104,7 @@ Git Branches
 | GET    | `/templates/user`  | Retrieve user templates    |
 | POST   | `/templates/clone` | Clone an existing template |
 ---
+
 *Screenshots*
 
 Frontend:
